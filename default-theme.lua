@@ -102,16 +102,16 @@ return {
         -- Value / toggle area
         toggleWidth         = 0.020,
         toggleHeight        = 0.012,
-        valueCenterOffset   = 0.024,  -- menuX + width/2 - this = value text center
+        valueCenterOffset   = 0.028,  -- menuX + width/2 - this = value text center
         toggleOffsetX       = 0.020,  -- toggle X offset from menu right edge
 
         yTextOffset         = 0.008,
 
         -- Arrow positions (from menu right edge: menuX + width/2)
         arrowIndicator      = 0.018,  -- ">" position
-        leftArrowPos        = 0.038,  -- ← position
+        leftArrowPos        = 0.046,  -- ← position
         rightArrowPos       = 0.008,  -- → position
-        valueTextX          = 0.024,  -- Value text X offset (fallback)
+        valueTextX          = 0.028,  -- Value text X offset (fallback)
 
         -- Player info panel (ESP)
         infoPanelWidth      = 0.12,
