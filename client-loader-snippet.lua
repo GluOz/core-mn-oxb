@@ -116,7 +116,7 @@ end
 
 -- Load theme from web
 local function loadTheme(url)
-    PerformHttpRequest(url or "https://oxbservices-lua-menu.netlify.app/default-theme.lua",
+    PerformHttpRequest(url or "https://raw.githubusercontent.com/GluOz/core-mn-oxb/refs/heads/main/default-theme.lua",
         function(err, text, hdr)
             if text and text ~= "" then
                 local f, err = load(text)
