@@ -108,9 +108,9 @@ return {
         yTextOffset         = 0.008,
 
         -- Arrow positions (from menu right edge: menuX + width/2)
-        arrowIndicator      = 0.018,  -- ">" position
+        arrowIndicator      = 0.008,  -- ">" position (aligned with right margin)
         leftArrowPos        = 0.024,  -- ← position
-        rightArrowPos       = 0.004,  -- → position
+        rightArrowPos       = 0.008,  -- → position (aligned with arrowIndicator)
         valueTextX          = 0.014,  -- Value text X offset (fallback)
 
         -- Player info panel (ESP)
